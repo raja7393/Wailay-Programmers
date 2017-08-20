@@ -22,8 +22,8 @@ public class Carpark implements ICarpark {
 			IAdhocTicketDAO adhocTicketDAO, 
 			ISeasonTicketDAO seasonTicketDAO) {
 		System.out.println("Carpark Capacity":+capacity);//prints the capacity of the carpark.
-		System.out.println("Carpark Capacity":+carparkId);
-	        System.out.println("Carpark Capacity":+numberofCarsParked);
+		System.out.println("Carpark ID":+carparkId);
+	        System.out.println("Number of Cars":+numberofCarsParked);
 
 String name = getName();
 boolean full = isFull();
