@@ -68,7 +68,7 @@ public class UsageRecord implements IUsageRecord {
 
 	@Override
 	public void finalise(long endDateTime) {
-		System.out.println(" no of hours"):
+		System.out.print(" no of hours"):
 		
 	}
 
