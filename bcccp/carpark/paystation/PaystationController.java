@@ -37,7 +37,11 @@ public class PaystationController
 
 	@Override
 	public void ticketPaid() {
-		// TODO Auto-generated method stub
+		// ticket calculations
+                System.out.print("Please enter the hours");
+               Total=Hours*rate;
+                     System.out.print(total);
+
 		
 	}
 
