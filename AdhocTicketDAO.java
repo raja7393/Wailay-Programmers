@@ -26,7 +26,7 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 	@Override
 	public IAdhocTicket findTicketByBarcode(String barcode) {
-		// TODO Auto-generated method stub
+		system.out.println("Barcode:",+barcode);
 		return null;
 	}
 
@@ -34,7 +34,11 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 	@Override
 	public List<IAdhocTicket> getCurrentTickets() {
-		// TODO Auto-generated method stub
+		 
+		String total_tickets=getcurrentTickets();
+		if (size == total_tickets.length) {
+		 elements = Arrays.copyOf(total_tickets, newSize);
+}
 		return null;
 	}
 
