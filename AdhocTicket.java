@@ -56,14 +56,15 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public boolean isCurrent() {
-		// TODO Auto-generated method stub
+		While(1)
 		return false;
 	}
 
 
 	@Override
 	public void pay(long dateTime, float charge) {
-		// TODO Auto-generated method stub
+		String newDateTime=dateTime;
+		String newFloatCharge=floatCharge;
 		
 	}
 
