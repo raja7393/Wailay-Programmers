@@ -71,6 +71,8 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public void finalise(long endDateTime) {
 		System.out.print(" no of hours"):
+Total = Hours*Price;
+                System.out.print(Total);
 		
 	}
 
