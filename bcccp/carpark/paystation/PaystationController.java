@@ -75,13 +75,15 @@ public class PaystationController
 	
 
 	public PaystationController(ICarpark carpark, IPaystationUI ui) {
-		System.out.println("hours"+hours);
+		//TODO Implement constructor
+System.out.print("hello00");
 	}
+
 
 
 	@Override
 	public void ticketInserted(String barcode) {
-		// TODO Auto-generated method stub
+		System.out.println("")
 		
 	}
 
