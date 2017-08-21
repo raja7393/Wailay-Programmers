@@ -21,7 +21,7 @@ public class UsageRecordFactory implements IUsageRecordFactory {
 		System.out.println("dgfjh");
                  hours*rate;
 System.out.println("rate");
-		return null;
+	
 	}
 
 
