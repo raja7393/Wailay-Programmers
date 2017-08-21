@@ -28,7 +28,9 @@ public class PaystationController
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
-		
+		System.out.print("Please enter the hours");
+                System.out.print("Please enter the price");
+
 	}
 
 
