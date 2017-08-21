@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package bcccp.carpark;
 
 public interface ICarparkObserver {
@@ -7,13 +6,3 @@ public interface ICarparkObserver {
 	
 
 }
-=======
-package bcccp.carpark;
-
-public interface ICarparkObserver {
-	
-	public void notifyCarparkEvent();
-	
-
-}
->>>>>>> master
