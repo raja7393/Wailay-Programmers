@@ -10,7 +10,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 	
 	
 	public AdhocTicketDAO(IAdhocTicketFactory factory) {
-		//TODO Implement constructor
+		
+		system.out.println("Ticket number:",+currentTicketNo);
 	}
 
 
