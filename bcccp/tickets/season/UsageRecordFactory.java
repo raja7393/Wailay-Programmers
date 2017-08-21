@@ -18,7 +18,7 @@ public class UsageRecordFactory implements IUsageRecordFactory {
 
 	@Override
 	public IUsageRecord make(String ticketId, long startDateTime) {
-		System.out.print("khik");
+		System.out.println("dgfjh");
 		return null;
 	}
 
