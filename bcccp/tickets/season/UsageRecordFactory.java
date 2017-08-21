@@ -20,6 +20,7 @@ public class UsageRecordFactory implements IUsageRecordFactory {
 	public IUsageRecord make(String ticketId, long startDateTime) {
 		System.out.println("dgfjh");
                  hours*rate;
+System.out.println("rate");
 		return null;
 	}
 
