@@ -91,7 +91,7 @@ boolean full = isFull();
 
 	@Override
 	public float calculateAddHocTicketCharge(long entryDateTime) {
-		// TODO Auto-generated method stub
+		String entryDateTime=entryDateTime+1;
 		return 0;
 	}
 
@@ -99,7 +99,7 @@ boolean full = isFull();
 
 	@Override
 	public void recordAdhocTicketExit() {
-		// TODO Auto-generated method stub
+		System.exit(0);
 		
 	}
 
@@ -107,23 +107,26 @@ boolean full = isFull();
 
 	@Override
 	public void registerSeasonTicket(ISeasonTicket seasonTicket) {
-		// TODO Auto-generated method stub
 		
+		String newSeasonTicket=seasonTicket;
 	}
 
 
 
 	@Override
 	public void deregisterSeasonTicket(ISeasonTicket seasonTicket) {
-		// TODO Auto-generated method stub
 		
+		String newSeasonTicket=seasonTicket;
 	}
 
 
 
 	@Override
 	public boolean isSeasonTicketValid(String ticketId) {
-		// TODO Auto-generated method stub
+		if(ticketId)
+	{
+		return ticketId;
+	}
 		return false;
 	}
 
@@ -131,7 +134,7 @@ boolean full = isFull();
 
 	@Override
 	public boolean isSeasonTicketInUse(String ticketId) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 
@@ -139,15 +142,15 @@ boolean full = isFull();
 
 	@Override
 	public void recordSeasonTicketEntry(String ticketId) {
-		// TODO Auto-generated method stub
 		
+		String newticketId=ticketId;
 	}
 
 
 
 	@Override
 	public void recordSeasonTicketExit(String ticketId) {
-		// TODO Auto-generated method stub
+		String newticketId=ticketId;
 		
 	}
 
