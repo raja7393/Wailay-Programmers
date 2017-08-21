@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package bcccp.tickets.season;
 
 public interface IUsageRecord {
@@ -9,15 +8,3 @@ public interface IUsageRecord {
 	public String getSeasonTicketId();
 
 }
-=======
-package bcccp.tickets.season;
-
-public interface IUsageRecord {
-	
-	public void finalise(long endDateTime);
-	public long getStartTime();
-	public long getEndTime();
-	public String getSeasonTicketId();
-
-}
->>>>>>> master
