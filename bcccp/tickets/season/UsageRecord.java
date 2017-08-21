@@ -62,7 +62,8 @@ public class UsageRecord implements IUsageRecord {
 	public UsageRecord(String ticketId, long startDateTime) {
 		//TODO Implement constructor
             System.out.print(" no of hours"):
-Total = Hours*Price
+             Total = Hours*Price;
+                System.out.print(Total);
 	}
 
 
