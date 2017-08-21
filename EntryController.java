@@ -30,7 +30,7 @@ public class EntryController
 			ICarSensor is,
 			IEntryUI ui) {
 		System.out.println("Carpark Capacity":+carparkId);
-	        System.out.println("Carpark Capacity":+numberofCarsParked);
+	        System.out.println("Number of Cars":+numberofCarsParked);
 	}
 
 
