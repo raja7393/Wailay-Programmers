@@ -61,7 +61,7 @@ public class UsageRecord implements IUsageRecord {
 	
 	public UsageRecord(String ticketId, long startDateTime) {
 		//TODO Implement constructor
-            System.out.println(" no of hours"):
+            System.out.print(" no of hours"):
 	}
 
 
