@@ -22,6 +22,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	@Override
 	public void registerTicket(ISeasonTicket ticket) {
 		System.out.println("Ticket Number:"+ ticketNumber);
+		System.out.println("Time of ticket generation:"+ time);
 		
 		
 	}
