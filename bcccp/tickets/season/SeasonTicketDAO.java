@@ -24,6 +24,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 		System.out.println("Ticket Number:"+ ticketNumber);
 		System.out.println("Time of ticket generation:"+ time);
 		System.out.println("Date of ticket generation:"+ date);
+		System.out.println("day of ticket generation:"+ day);
 		
 		
 	}
