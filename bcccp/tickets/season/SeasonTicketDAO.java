@@ -12,7 +12,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	public SeasonTicketDAO(IUsageRecordFactory factory) {
 		System.out.println("Usage record:"+ factory);
 		System.out.println("Type of vehicle:"+ type);
-		
+		System.out.println("Name of maker:"+name)
 	}
 
 
