@@ -33,6 +33,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	@Override
 	public void deregisterTicket(ISeasonTicket ticket) {
 		System.out.println("Time of ticket deregistration:"+ deregistrationTime);
+		System.out.println("Date of ticket deregistration:"+ deregistrationDate);
 		
 	}
 
