@@ -14,6 +14,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 		System.out.println("Type of vehicle:"+ type);
 		System.out.println("Name of maker:"+name);
 		System.out.println("Number of vehicle:"+number);
+		System.out.println("Name of Owner:"+ownername);
 	}
 
 
