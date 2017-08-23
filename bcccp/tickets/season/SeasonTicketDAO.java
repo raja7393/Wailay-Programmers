@@ -26,14 +26,13 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 		System.out.println("Date of ticket generation:"+ date);
 		System.out.println("day of ticket generation:"+ day);
 		
-		
 	}
 
 
 
 	@Override
 	public void deregisterTicket(ISeasonTicket ticket) {
-		// TODO Auto-generated method stub
+		System.out.println("Time of ticket deregistration:"+ deregistrationTime);
 		
 	}
 
