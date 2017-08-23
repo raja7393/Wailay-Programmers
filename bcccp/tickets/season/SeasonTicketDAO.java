@@ -36,7 +36,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	public void deregisterTicket(ISeasonTicket ticket) {
 		System.out.println("Time of ticket deregistration:"+ deregistrationTime);
 		System.out.println("Date of ticket deregistration:"+ deregistrationDate);
-		
+		System.out.println("Day of ticket deregistration:"+ deregistrationDay);
 	}
 
 
