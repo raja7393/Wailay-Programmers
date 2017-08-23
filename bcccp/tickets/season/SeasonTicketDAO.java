@@ -10,13 +10,15 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	
 	
 	public SeasonTicketDAO(IUsageRecordFactory factory) {
-		//TOD Implement constructor
+		System.out.println("Usage record:"+ factory);
+		
 	}
 
 
 
 	@Override
 	public void registerTicket(ISeasonTicket ticket) {
+		
 		// TODO Auto-generated method stub
 		
 	}
