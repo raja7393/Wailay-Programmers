@@ -1,5 +1,3 @@
-//Author: Sukhi
-//Date: 21 August 2017
 package bcccp;
 
 import java.awt.EventQueue;
