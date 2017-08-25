@@ -14,13 +14,11 @@ public class PaystationController
 	
 	
 
-	public PaystationController() {
-		//TODO Implement constructor
-	}
-
 	public PaystationController(ICarpark carpark, IPaystationUI ui) {
 		//TODO Implement constructor
 	}
+
+
 
 // This method check the ticket id and compare the value from stored  
 	@Override
