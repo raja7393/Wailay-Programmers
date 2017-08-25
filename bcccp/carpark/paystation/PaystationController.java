@@ -14,20 +14,25 @@ public class PaystationController
 	
 	
 
+	public PaystationController() {
+		//TODO Implement constructor
+	}
+
 	public PaystationController(ICarpark carpark, IPaystationUI ui) {
 		//TODO Implement constructor
 	}
 
-
-
+// This method check the ticket id and compare the value from stored  
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("test" + barcode);
 	}
 
 
 
+	
+ // comment on ticket paid method
 	@Override
 	public void ticketPaid() {
 		// TODO Auto-generated method stub
