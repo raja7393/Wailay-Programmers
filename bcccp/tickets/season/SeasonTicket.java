@@ -18,6 +18,7 @@ public class SeasonTicket implements ISeasonTicket {
 		System.out.println("Ticket ID:"+ticketId);
 		System.out.println("Carpark ID:"+carparkId);
 		System.out.println("Starting validation period:"+startValidPeriod);
+		System.out.println("Ending of validation period:"+endValidPeriod);
 	}
 
 	@Override
