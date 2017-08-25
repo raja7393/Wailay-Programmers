@@ -23,7 +23,7 @@ public class SeasonTicket implements ISeasonTicket {
 
 	@Override
 	public String getId() {
-		// TODO Auto-generated method stub
+		ticketId.this= ticketId
 		return null;
 	}
 
