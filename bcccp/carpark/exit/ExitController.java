@@ -20,6 +20,8 @@ public class ExitController
 	private IAdhocTicket  adhocTicket = null;
 	private long exitTime;
 	private String seasonTicketId = null;
+	private ICarSensor is;
+	private ICarSensor os;
 	
 	
 
@@ -27,19 +29,20 @@ public class ExitController
 			ICarSensor is,
 			ICarSensor os, 
 			IExitUI ui) {
-
-			this.carpark= Carpark;
-			this.exitGate= exitGate;
-			this.is = insideSensor;
-			this.os = outsideSensor;
-		
+		this.carpark = carpark;
+		this.exitGate = exitGate;
+		this.is = insideSensor;
+		this.os = outsideSensor;
 	}
 
-
+//New constructor with no arguments , need to add parameters later on
+	public ExitController() {
+	
+	}
 
 	@Override
 	public void ticketInserted(String ticketStr) {
-		System.out.println(ICarSensor);
+		System.out.println("The ticket String is:" +ticketStr);
 		
 	}
 
@@ -55,7 +58,7 @@ public class ExitController
 
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
-		// TODO Auto-generated method stub
+		System.out.println("car detected? " +detected + "the detector Id is: " +detectorId );
 		
 	}
 
