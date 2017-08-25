@@ -27,7 +27,12 @@ public class ExitController
 			ICarSensor is,
 			ICarSensor os, 
 			IExitUI ui) {
-		System.out.println(ICarSensor);
+
+			this.carpark= Carpark;
+			this.exitGate= exitGate;
+			this.is = insideSensor;
+			this.os = outsideSensor;
+		
 	}
 
 
