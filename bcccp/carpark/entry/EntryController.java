@@ -6,6 +6,7 @@ import bcccp.carpark.ICarSensorResponder;
 import bcccp.carpark.ICarpark;
 import bcccp.carpark.ICarparkObserver;
 import bcccp.carpark.IGate;
+import bcccp.tickets.adhoc.AdhocTicket;
 import bcccp.tickets.adhoc.IAdhocTicket;
 
 public class EntryController 
@@ -29,14 +30,28 @@ public class EntryController
 			ICarSensor os, 
 			ICarSensor is,
 			IEntryUI ui) {
-		//TODO Implement constructor
+				this.carpark = carpark;
+				this.entryGate = entryGate;
+				this.insideSensor = is;
+				this.outsideSensor = os;
+	}
+	
+
+
+
+	public EntryController() {
+		// TODO Auto-generated constructor stub
 	}
 
 
-
+	// adhocticket is generated when issue adhoc ticket is clicked
 	@Override
 	public void buttonPushed() {
+
 		// TODO Auto-generated method stub
+		AdhocTicket adt = new AdhocTicket("12345", 333, "0099999") ;
+	
+
 		
 	}
 
@@ -44,7 +59,8 @@ public class EntryController
 
 	@Override
 	public void ticketInserted(String barcode) {
-		// TODO Auto-generated method stub
+		System.out.println("The text field input is: " +barcode);
+		
 		
 	}
 
@@ -52,23 +68,27 @@ public class EntryController
 
 	@Override
 	public void ticketTaken() {
-		// TODO Auto-generated method stub
+		System.out.println("The ticker taken button");
 		
 	}
 
 
 
+	 // method is used to notify the event of car entry
 	@Override
 	public void notifyCarparkEvent() {
-		// TODO Auto-generated method stub
+		System.out.println("Notification of Car Event");
 		
 	}
 
 
-
+    // This method is used to detect the car 
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
-		// TODO Auto-generated method stub
+		System.out.println("Detector Id is: " +detectorId + "The car is detected: " + detected );
+		
+		
+		// validate the detectorId and detected variable in thsi method.
 		
 	}
 
