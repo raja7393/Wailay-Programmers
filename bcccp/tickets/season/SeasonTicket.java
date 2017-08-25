@@ -14,11 +14,9 @@ public class SeasonTicket implements ISeasonTicket {
 	private long startValidPeriod;
 	private long endValidPeriod;
 	
-	public SeasonTicket (String ticketId, 
-			             String carparkId, 
-			             long startValidPeriod,
-			             long endValidPeriod) {
-		//TDO Implement constructor
+	public SeasonTicket (String ticketId,String carparkId,long startValidPeriod,long endValidPeriod) {
+		System.out.println("Ticket ID:"+ticketId);
+		
 	}
 
 	@Override
