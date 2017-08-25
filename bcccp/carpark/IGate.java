@@ -5,5 +5,6 @@ public interface IGate {
 	public void lower();
 	
 	public boolean isRaised();
+
 	
 }
