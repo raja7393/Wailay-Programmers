@@ -22,9 +22,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 	
 	private List<ICarSensorResponder> responders;
 
-	/**
-	 * Launch the application.
-	 */
+	// exception handling for runtime errors 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
