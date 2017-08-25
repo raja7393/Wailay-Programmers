@@ -28,7 +28,9 @@ public class ExitUI extends JFrame implements IExitUI {
 
 	
 	
-	// Exeption handling
+	/**
+	 * Launch the application.
+	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -135,16 +137,20 @@ public class ExitUI extends JFrame implements IExitUI {
 
 	
 	
+	//Method read the ticket from user
 	private void readTicket() {
 		String ticketStr = ticketReaderTextField.getText();
+		controller=new ExitController();  //Created new constructor
 		controller.ticketInserted(ticketStr);	
 	}
 	
 	
-	
+	//Method validate  the ticket from user
 	private void takeTicket() {
-		controller.ticketTaken();
+		
 		ticketReaderTextField.setText("");
+		controller=new ExitController(); //Created new constructor
+		controller.ticketTaken();
 	}
 
 	
