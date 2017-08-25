@@ -152,9 +152,13 @@ public class PaystationUI extends JFrame implements IPaystationUI {
 	
 	
 	
+	// Read ticket Id from User Input and pass value to PayStationController.
 	private void ticketInserted() {
 		String ticketStr = barcodeTextField.getText();
-		controller.ticketInserted(ticketStr);	
+		//System.out.println("test" + ticketStr);
+		controller=new PaystationController();
+		controller.ticketInserted(ticketStr);
+		//controller.ticketInserted(ticketStr);	
 	}
 	
 	
