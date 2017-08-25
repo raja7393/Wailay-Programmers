@@ -27,14 +27,14 @@ public class ExitController
 			ICarSensor is,
 			ICarSensor os, 
 			IExitUI ui) {
-		//TODO Implement constructor
+		System.out.println(ICarSensor);
 	}
 
 
 
 	@Override
 	public void ticketInserted(String ticketStr) {
-		// TODO Auto-generated method stub
+		System.out.println(ICarSensor);
 		
 	}
 
