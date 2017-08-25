@@ -8,4 +8,7 @@ public interface IExitUI {
 	public void beep();
 	public void discardTicket();	
 	
+	System.out.println(beep);
+	System.out.println(discardTicket);
+	System.out.println(display);
 }
