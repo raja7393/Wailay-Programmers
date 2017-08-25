@@ -26,11 +26,13 @@ public class Carpark implements ICarpark {
 
 
 
+// Car Observer is used ti register the car
 	@Override
 	public void register(ICarparkObserver observer) {
 		// TODO Auto-generated method stub
 		
 	}
+
 
 
 
@@ -89,7 +91,7 @@ public class Carpark implements ICarpark {
 	}
 
 
-
+   // this method is used to adhoc ticket exit method
 	@Override
 	public void recordAdhocTicketExit() {
 		// TODO Auto-generated method stub
@@ -113,7 +115,7 @@ public class Carpark implements ICarpark {
 	}
 
 
-
+   // validate the seasontick adn return the ticket status
 	@Override
 	public boolean isSeasonTicketValid(String ticketId) {
 		// TODO Auto-generated method stub
